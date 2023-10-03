@@ -11,6 +11,7 @@
 		2495E52E2ACC8C2D0018E120 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495E52D2ACC8C2D0018E120 /* ContentView.swift */; };
 		2495E5302ACC8C2E0018E120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2495E52F2ACC8C2E0018E120 /* Assets.xcassets */; };
 		2495E5332ACC8C2E0018E120 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2495E5322ACC8C2E0018E120 /* Preview Assets.xcassets */; };
+		2495E53C2ACC8DF30018E120 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2495E53B2ACC8DF30018E120 /* SF-Pro-Rounded-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		2495E52D2ACC8C2D0018E120 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2495E52F2ACC8C2E0018E120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2495E5322ACC8C2E0018E120 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2495E53B2ACC8DF30018E120 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		2495E53D2ACC8E380018E120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		2495E52A2ACC8C2D0018E120 /* onZenTEST */ = {
 			isa = PBXGroup;
 			children = (
+				2495E53D2ACC8E380018E120 /* Info.plist */,
+				2495E53B2ACC8DF30018E120 /* SF-Pro-Rounded-Medium.otf */,
 				2495E52B2ACC8C2D0018E120 /* onZenTESTApp.swift */,
 				2495E52D2ACC8C2D0018E120 /* ContentView.swift */,
 				2495E52F2ACC8C2E0018E120 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2495E53C2ACC8DF30018E120 /* SF-Pro-Rounded-Medium.otf in Resources */,
 				2495E5332ACC8C2E0018E120 /* Preview Assets.xcassets in Resources */,
 				2495E5302ACC8C2E0018E120 /* Assets.xcassets in Resources */,
 			);
@@ -274,6 +280,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onZenTEST/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onZenTEST/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"onZenTEST/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onZenTEST/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

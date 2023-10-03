@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var prompts: [String] = ["who","when","what","where","why"]
+    @State private var prompts: [String] = ["Who?","When?","What?","Where?","Why?"]
     
     
     @State var isToggle: Bool = false
@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 HStack {
                     Text("Release")
-                        .font(Font.custom("SFProRounded-Medium", size: 20))
+                        .font(Font.custom("SFProRounded-Medium", size: 29))
                         .padding(.leading)
                     
                     Spacer().frame (width: 20)
@@ -39,7 +39,7 @@ struct ContentView: View {
                     Spacer().frame(width: 60 )
                     
                     Text("Reflect")
-                        .font(Font.custom("SFProRounded-Medium", size: 20))
+                        .font(Font.custom("SFProRounded-Medium", size: 29))
                         .padding(.trailing)
                     
                 }
@@ -75,7 +75,7 @@ struct mainButton: View {
        
         HStack{
             Text(buttonPrompt)
-                .font(Font.custom("SFProRounded-Medium", size: 20))
+                .font(Font.custom("SFProRounded-Medium", size: 30))
                 .frame(width: 350, height: 60)
                 .background(.reflectButton)
                 
