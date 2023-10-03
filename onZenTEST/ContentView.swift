@@ -15,20 +15,20 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color( isToggle ? .purple : .pink)
+            Color( isToggle ? "reflectBackground" : "releaseBackground")
                 .ignoresSafeArea()
             
             VStack {
                 infoButton()
-                Image("test")
+                Image( isToggle ? "onZenReflectLogo" : "onZenReleaseLogo")
+                Spacer().frame (height: 4)
                     .padding()
                 
                 HStack {
                     Text("Release")
                         .font(Font.custom("SFProRounded-Medium", size: 29))
                         .padding(.leading)
-                    
-                    Spacer().frame (width: 20)
+                        
                     
                     
                     Toggle("",isOn: $isToggle)
@@ -71,10 +71,12 @@ struct ContentView: View {
 
 struct mainButton: View {
     var buttonPrompt: String
+    
     var body: some View {
        
         HStack{
             Text(buttonPrompt)
+            
                 .font(Font.custom("SFProRounded-Medium", size: 30))
                 .frame(width: 350, height: 60)
                 .background(.reflectButton)
