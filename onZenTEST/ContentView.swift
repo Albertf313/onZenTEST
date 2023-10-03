@@ -26,20 +26,13 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color( isToggle ? .zenDarkmodeRef : .pink)
-                .ignoresSafeArea()
-            
-            VStack {
-                infoButton(activeSheet: $activeSheet)
-                Image("test")
-                    .padding()
+
                 
                 HStack {
                     Text("Release")
                         .font(Font.custom("SFProRounded-Medium", size: 29))
                         .padding(.leading)
-                    
-                    Spacer().frame (width: 20)
+                        
                     
                     
                     Toggle("",isOn: $isToggle)
@@ -102,12 +95,12 @@ struct mainButton: View {
     
     var question: String
     var buttonPrompt: String
-  
-    
+
     var body: some View {
        
         HStack{
             Text(buttonPrompt)
+            
                 .font(Font.custom("SFProRounded-Medium", size: 30))
                 .frame(width: 350, height: 60)
                 .background(.reflectButton)
